@@ -65,7 +65,7 @@ class EbayEnterprise_MultipleCoupons_Model_Validator extends Mage_SalesRule_Mode
 
             $ruleCollection->addFieldToFilter('is_active', true);
 
-            $ruleCollection->addWebsiteGroupDateFilter($websiteId, $customerGroupId);
+            $ruleCollection->addWebsiteGroupDateFilter($websiteId, $customerGroupId, Mage::getModel('core/date')->date('Y-m-d H:i:s'));
 
             Mage::dispatchEvent($this->eventName, ['rule_collection' => $ruleCollection]);
 
