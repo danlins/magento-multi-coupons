@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2016-1-21
+### Fixed
+- ME-1287
+
 ## [0.1.3] - 2015-10-16
 ### Fixed
 - Corrected modman file
